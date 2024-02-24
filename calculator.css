@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+   
+}
+main{
+    height: 85vh;
+    width: 400px;
+    border: 2px solid black;
+    margin : 20px auto ;
+    background-image: url(./iphone.png);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    user-select: none;
+}
+
+
+.output
+{
+  height: 32%;
+  width: 249px;
+  margin: 0 auto;
+  margin-top: 25px;
+  border-radius: 20px 20px 0 0;
+  position:relative;
+  background-color: rgb(51, 49, 49);
+  z-index: -1;
+  
+
+}
+
+.Buttons{
+    
+    border: 1px solid rgb(147, 92, 92);
+
+}
+.textPad{
+     height: calc(85vh - 41%);
+     width: 249px;
+     background-color: black;
+     margin: auto;
+     border-radius: 0 0 25px 25px;
+     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    user-select: none;
+
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+table{
+    /* border: 1px solid white; */
+    padding: 0 15px;
+    
+}
+.btn{
+    transition: 0.2s;
+    height: 45px;
+    width: 45px;
+    margin: 8px;
+    border-radius: 50%;
+    background-color: gray;
+    font-size: large;
+    border: none;
+    user-select: none;
+}
+.Zero{
+    width: 105px;
+    border-radius: 30px;
+
+
+}
+#Write{
+    color: #fe9501;
+   font-size: 20px;
+   text-align: right;
+   position: relative;
+   top: 70px;
+   margin-right: 10px;
+   font-family: sans-serif;
+   user-select: none;
+}
+#Answer{
+   color: white;
+   font-size: 50px;
+   text-align: right;
+   position: relative;
+   top: 75px;
+   margin-right: 10px;
+   font-family: sans-serif;
+   user-select: none;
+}
+.style-1{
+    background-color: #f6f2f2;
+}
+.style-2{
+    background-color: #fe9501;
+}
+.btn:hover{
+    background-color:lightpink;
+    color: black;
+}
+.btn:active{
+    transform: scale(0.95);
+}
